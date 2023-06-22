@@ -67,14 +67,14 @@ button {
 
 </head>
 <body>
-  <button id="gumroad" onclick="navigate(this.id)" id="inbox" type="button" class="fill pink"><i class="fa-solid fa-g" style="transform: rotate(-20deg);"></i> Gumroad</button>
-  <button id="etsy" onclick="navigate(this.id)" id="inbox" type="button" class="fill orange"><i class="fa-sharp fa-solid fa-e" style="transform: rotate(-20deg);"></i> Etsy</button>
+  <button id="pay" onclick="navigate(this.id)" id="inbox" type="button" class="fill pink"><i class="fa-brands fa-alipay" style="transform: rotate(-20deg);"></i> 购买</button>
+  <button id="cart" onclick="navigate(this.id)" id="inbox" type="button" class="fill orange"><i class="fa-solid fa-cart-shopping" style="transform: rotate(-20deg);"></i> 购物车</button>
 
 
 
   <script>
     function navigate(id) {
-      if(id === "gumroad")
+      if(id === "pay")
       window.open("https://shorouk.gumroad.com/", '_blank').focus();
       else{
         window.open("https://www.etsy.com/ca/shop/ShorouksStore", '_blank').focus();
