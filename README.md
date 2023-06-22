@@ -2,6 +2,7 @@
 
 ## music
 url: https://widgets.chancesha.com/music/?server=netease&type=playlist&id=3778678
+
 type: playlist/song
 ## tableau
 url: https://widgets.chancesha.com/tableau/?id=SuperBowlCommercials_16854415565060&name=SuperBowlCommercials
