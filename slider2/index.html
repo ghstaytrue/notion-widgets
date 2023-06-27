@@ -3,17 +3,8 @@
 	<head>
 		<meta charset=utf-8 />
 		<title>Slider</title>
-		<!--[if lte IE 8]>
- 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
-		
-		<!-- Use Zepto for best performance on WebKit based browser -->
-		<!-- <script src="js/zepto/zepto.js" type="text/javascript" charset="utf-8"></script> -->
-		
-		<!-- Use jQuery for best compatibility with other CSS3 enabled browsers -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		
 		<script src="js/flux.min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" charset="utf-8">
 			$(function(){
@@ -26,14 +17,11 @@
 					controls:true,
 					captions:true
 				});
-				window.f.next('bars3d');
 			});
 		</script>
 	</head>
 	<body id="transitiongallery">
 		<section class="container">
-			<h1><span class="flux">Flux</span> <span class="slider">Slider</span></h1>
-			<h2>Hardware accelerated image transitions using CSS3.</h2>
 			<div id="slidercontainer">
 				<div id="slider">
 					<img src="images/1.jpg" alt="" title="1-1" />
